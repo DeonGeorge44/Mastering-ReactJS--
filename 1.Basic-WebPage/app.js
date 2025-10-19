@@ -35,6 +35,11 @@ root.render(parent);
 
 
 
+const heading = document.querySelector('h1');
+heading.innerHTML = 'MasterJS';
+
+root.render(heading);
+
 // root.render(heading);
 
 
